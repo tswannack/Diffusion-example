@@ -8,8 +8,6 @@ dx = 0.5
 x = np.arange(start=0, stop=Lx, step=dx)
 nx = len(x)
 
-whos
-
 x[nx-1]
 x[-1]
 x[0:5]
@@ -30,10 +28,6 @@ plt.title("Initial concentration profile")
 time = 0
 nt = 5000
 dt = 0.5 * (dx**2 / D)
-
-
-dt
-
 
 
 for t in range(0, nt):
